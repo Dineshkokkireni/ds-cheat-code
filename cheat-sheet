@@ -1,0 +1,72 @@
+Queue:
+A queue is a First-In-First-Out (FIFO) data structure that follows the principle of First-Come-First-Served (FCFS). It is a collection of elements that are added and removed from the end of the queue.
+
+Operations:
+Enqueue: Add an element to the end of the queue.
+Dequeue: Remove an element from the front of the queue.
+Peek: Return the element at the front of the queue without removing it.
+Example: A bank line where customers are served in the order they arrive.
+
+Stack:
+A stack is a Last-In-First-Out (LIFO) data structure that follows the principle of Last-Come-First-Served (LCFS). It is a collection of elements that are added and removed from the top of the stack.
+Operations:
+Push: Add an element to the top of the stack.
+Pop: Remove an element from the top of the stack.
+Peek: Return the element at the top of the stack without removing it.
+Example: A pile of plates where you add and remove plates from the top.
+
+Single Linked List:
+A single linked list is a linear data structure where each element points to the next element in the list. Each element is called a node, and each node contains two values: the data value and a pointer to the next node.
+Operations:
+Insert: Add a new node at a specific position in the list.
+Delete: Remove a node from the list.
+Traverse: Iterate through the list and print or access each node.
+Example: A list of books where each book is linked to the next one.
+
+Double Linked List:
+A double linked list is a linear data structure where each element points to both the previous and next elements in the list. Each element is called a node, and each node contains three values: two pointers (previous and next) and a data value.
+Operations:
+Insert: Add a new node at a specific position in the list.
+Delete: Remove a node from the list.
+Traverse: Iterate through the list and print or access each node.
+Example: A list of students where each student is linked to their previous and next classmates.
+
+Circular Linked List:
+A circular linked list is a linear data structure where each element points to both the previous and next elements in the list, but also points back to itself. Each element is called a node, and each node contains three values: two pointers (previous and next) and a data value.
+Operations:
+Insert: Add a new node at a specific position in the list.
+Delete: Remove a node from the list.
+Traverse: Iterate through the list and print or access each node.
+Example: A loop of friends where each friend is linked to their previous and next friend, and also back to themselves.
+Note that these are basic operations and there may be more advanced operations depending on the specific implementation and use case.
+
+Trees:
+A tree is a data structure composed of nodes, where each node has a value and zero or more children nodes. Each node has a unique value and is connected to other nodes through edges.
+Operations:
+Insert: Add a new node to the tree.
+Delete: Remove a node from the tree.
+Traversal: Visit each node in the tree in a specific order (e.g., Pre-order, In-order, Post-order).
+Search: Find a specific node in the tree.
+Height: Calculate the height of the tree (i.e., the number of edges from the root to the furthest leaf).
+Example: A file system hierarchy where each directory is a node and has subdirectories and files as children.
+Types of Trees:
+Binary Tree: Each node has at most two children.
+B-Tree: A self-balancing search tree that keeps data sorted and allows for efficient insertion and deletion.
+Heap: A specialized tree-based data structure that satisfies the heap property: the parent node is either greater than (in a max heap) or less than (in a min heap) its child nodes.
+
+Graphs:
+A graph is a non-linear data structure composed of nodes and edges that connect them. Each node may have multiple edges connecting it to other nodes.
+Operations:
+Insert: Add a new edge or node to the graph.
+Delete: Remove an edge or node from the graph.
+Traversal: Visit each node in the graph in a specific order (e.g., Breadth-First Search, Depth-First Search).
+Search: Find a specific node or edge in the graph.
+Shortest Path: Find the shortest path between two nodes in the graph.
+Example: A social network where each person is a node and friendships are edges.
+
+Types of Graphs:
+Directed Graph (Digraph): Edges have direction and represent a one-way relationship between nodes.
+Undirected Graph: Edges do not have direction and represent a two-way relationship between nodes.
+Weighted Graph: Edges have weights or labels that represent some cost or distance.
+Unweighted Graph: Edges do not have weights or labels.
+Note: These are basic operations and there may be more advanced operations depending on the specific implementation and use case.
